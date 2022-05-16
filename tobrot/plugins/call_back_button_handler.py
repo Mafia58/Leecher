@@ -32,7 +32,7 @@ async def button(bot, update: CallbackQuery):
         else:
             await bot.answer_callback_query(
                 callback_query_id=update.id,
-                text="This Is Not Your Leech. So, dont touch on this...😡😡",
+                text="This Is Not Your Leech. So, don't touch on this and fuck off...😡😡",
                 show_alert=True,
                 cache_time=0,
             )
